@@ -1,0 +1,12 @@
+package com.fusion05March;
+
+public class Test2 {
+	public static void main(String[]args) {
+		
+		//byte b=200;
+		//int b=220;
+		byte b=(byte)2300;
+		System.out.print(b);
+	}
+
+}

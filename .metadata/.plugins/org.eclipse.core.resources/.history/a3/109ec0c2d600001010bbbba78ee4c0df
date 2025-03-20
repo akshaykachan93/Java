@@ -1,0 +1,11 @@
+package com.TypeCasting;
+
+public class Implicit_Typecasting {
+
+	public static void main (String[]args)
+	{
+		int a =10;  //4Byte
+	    double b=a; //8Byte               //Implicit Typecasting
+	    System.out.print(b);
+	}
+}

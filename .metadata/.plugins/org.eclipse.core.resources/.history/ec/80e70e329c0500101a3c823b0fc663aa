@@ -1,0 +1,14 @@
+package com.TypesofVariales;
+
+public class Test {
+	
+	int a=10;
+	
+	public static void main(String[]args) {
+	
+	System.out.println(t.a);
+	
+	Test t= new Test();
+	}
+
+}

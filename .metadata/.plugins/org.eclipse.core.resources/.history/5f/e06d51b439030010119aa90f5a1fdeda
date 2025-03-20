@@ -1,0 +1,13 @@
+package com.method;
+
+public class CalculatorStatic {
+	
+	public static void add() {
+		System.out.println("Ram");
+		System.out.println(10+20);
+	}
+	
+	public static void main(String[]args) {
+	add();
+	}
+}

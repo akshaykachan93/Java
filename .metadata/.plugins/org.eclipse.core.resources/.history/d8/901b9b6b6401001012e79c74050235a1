@@ -1,0 +1,16 @@
+package com.Employee;
+
+public class EmployeeDetails {
+	public static void main(String[]args) {		
+		
+		
+		int a= 012;
+		double b=20000;
+		
+		System.out.print(a+b);
+		
+	}
+ //Create empoyee id name salary and designation//
+ 
+ 
+}
