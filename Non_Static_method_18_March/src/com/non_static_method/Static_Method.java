@@ -10,7 +10,7 @@ public class Static_Method {
 	public static void main(String[] args) {
 
 
-		//add();
+		add();
 	}
 
 }
