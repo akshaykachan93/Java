@@ -2,27 +2,39 @@ package com.non_static_method;
 
 public class InstanceMethod {
 	
-	public void add() {
-		System.out.println("Instance Method ");
+	public static void add(int a, int b) {
+		System.out.println(a + b);
 	}
-	
-	public static void sub() {
-		System.out.println("Static Method ");
+
+	public static void sub(int a, int b) {
+		System.out.println(a - b);
 	}
-	
+
+	public static void mul(int a, int b) {
+		System.out.println(a * b);
+	}
+
+	public static void div(int a, int b) {
+		System.out.println(a / b);
+	}
+
+	public static void mod(int a, int b) {
+		System.out.println(a % b);
+	}
 
 	public static void main(String[] args) {
-		
-		InstanceMethod i= new InstanceMethod();
 
-		i.add();
-		
-		//i.sub();
-		
-		sub();
-		
-		InstanceMethod.sub();
+		System.out.println("Calculator Program");
+		int a = 20;
+		int b = 10;
 
+		add(a, b);
+		sub(a, b);
+		mul(a, b);
+		div(a, b);
+		mod(a, b);
 	}
+	}
+
 
 }
